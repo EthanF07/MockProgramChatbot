@@ -20,6 +20,7 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <h1 className = "text-white">
+               {/* */}
             Read <Link href="/posts/main-page">this page!</Link>
             </h1>
             <Link
