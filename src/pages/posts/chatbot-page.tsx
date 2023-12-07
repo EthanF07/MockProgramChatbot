@@ -12,12 +12,17 @@ export default function ChatbotPage() {
                 <span className="text-[hsl(280,100%,70%)]">C.O.L.B. Chatbot</span>
             </h1>
         </div>
-        <div className = "box-border h-128 w-64 border-4">
 
-        </div>
-        <h2>
-            <Link href="main-page">To Home</Link>
+        <h2 className = "flex flex-col items-center justify-center">
+                <Link href="main-page">To Home</Link>
         </h2>
+
+        <div className = "container box-border h-128 w-64 border-4 bg-gradient-to-r from-indigo-600 to-pink-500">
+            <h2 className = "flex flex-col items-center justify-center">
+                ikwnhwafiowfnhqoifn
+            </h2>
+        </div>
+        
     </>
     )
   }
