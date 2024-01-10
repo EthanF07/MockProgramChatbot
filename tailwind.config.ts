@@ -13,7 +13,9 @@ export default {
       
       'orange': '#fed7aa',
       'purple': '#c4b5fd',
-      'hover-purple': '#a78bfa'
+      'hover-purple': '#a78bfa',
+
+      'headbar': '#e4e4e7'
     },
     extend: {
       fontFamily: {
