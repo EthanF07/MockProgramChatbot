@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.headbar {
-    @apply container min-w-full h-10 bg-headbar;
-}

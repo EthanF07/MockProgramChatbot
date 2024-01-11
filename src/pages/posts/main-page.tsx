@@ -5,7 +5,7 @@ import MenuIcon from '/src/images/hamburger-menu-32.png';
 export default function MainPage() {
     return (
     <>
-        <div className = "container min-w-full h-10 bg-headbar">
+        <div className = "headbar">
             <img src={MenuIcon.src} className = "p-1"/>
         </div>
 

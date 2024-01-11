@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 
 import MenuIcon from '/src/images/hamburger-menu-32.png';
+import Headbar_Items from '~/functions/headbar_button';
 
 export default function ChatbotPage() {
     return (
@@ -9,9 +10,11 @@ export default function ChatbotPage() {
         <Head>
         <title>ChatbotPage</title>
         </Head>
-        <div className = "container min-w-full h-10 bg-headbar">
+        <div className = "headbar relative">
             <img src={MenuIcon.src} className = "p-1"/>
+            <Headbar_Items/>
         </div>
+        
         <div className ="flex flex-col items-center justify-center gap-12 px-4 py-8 ">
             <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
                 <span className="text-[hsl(280,100%,70%)]">C.O.L.B. Chatbot</span>
