@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head'
 
-import MenuIcon from '/src/images/hamburger-menu-32.png';
+import MenuIcon from '/src/images/hamburger-menu-32A.png';
 import Headbar_Items from '~/functions/headbar_button';
 
 export default function ChatbotPage() {
@@ -11,7 +11,6 @@ export default function ChatbotPage() {
         <title>ChatbotPage</title>
         </Head>
         <div className = "headbar relative">
-            <img src={MenuIcon.src} className = "p-1"/>
             <Headbar_Items/>
         </div>
         
@@ -37,7 +36,11 @@ export default function ChatbotPage() {
                     Enter Message
                 </h2>
             </div>
+            {/* Article Pushout UI */}
+            <div className = "container"></div>
+
         </div>
+        
         
         
     </>

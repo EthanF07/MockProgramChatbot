@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
 import MenuIcon from '/src/images/hamburger-menu-32.png';
+import Headbar_Items from '~/functions/headbar_button';
 
 export default function MainPage() {
     return (
     <>
         <div className = "headbar">
-            <img src={MenuIcon.src} className = "p-1"/>
+            <Headbar_Items/>
         </div>
 
         <div className ="flex flex-col items-center justify-center gap-12 px-4 py-8 ">
