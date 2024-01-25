@@ -12,8 +12,11 @@ export default {
       'white': '#f8fafc',
       
       'orange': '#fed7aa',
+      'article-blue': '#cffafe',
       'purple': '#c4b5fd',
       'hover-purple': '#a78bfa',
+
+
 
       'headbar': '#e4e4e7'
     },
