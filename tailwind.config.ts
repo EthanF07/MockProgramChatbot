@@ -26,6 +26,8 @@ export default {
         'message': ['ui-sans-serif', 'system-ui', "Helvetica Neue"]
       },
       spacing: {
+        // '70': '17.5rem',
+        // '85': '21.25rem',
         '128': '32rem'
       }
     },

@@ -20,14 +20,7 @@ export default function MainPage() {
             <h1 className = "text-3xl py-4">What is C.O.L.B.</h1>
             <h2>C.O.L.B. is a Covid Organizing Literary Buddy. Yeah, not really a good name but I needed filler words. </h2>
         </div>
-
-        <h1>Main-page</h1>
-        <h2>
-            <Link href="/">Back to home</Link>  
-        </h2>
-        <h2>
-            <Link href="chatbot-page">Talk with C.O.L.B.</Link>
-        </h2>
+    
     </>
     )
   }

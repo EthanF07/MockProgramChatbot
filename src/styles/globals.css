@@ -6,4 +6,10 @@
    .headbar {
     @apply relative container min-w-full h-10 bg-headbar;
     }
+    
+}
+@layer components {
+    .article {
+    @apply container box-border border-4 bg-gradient-to-r from-[#cffafe] via-[#22d3ee] to-[#cffafe]
+    }
 }
