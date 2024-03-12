@@ -3,18 +3,29 @@
 
 generator client {
     provider = "prisma-client-js"
+    previewFeatures = ["mongodb"]
 }
 
 datasource db {
-    provider = "sqlite"
+    provider = "mongodb"
     url      = env("DATABASE_URL")
 }
 
 model Post {
-    id        Int      @id @default(autoincrement())
+    id        String   @id @default(auto()) @map("_id") @db.ObjectId
     name      String
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 
     @@index([name])
+}
+
+model InputEntries {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    title String
+    body String 
+
+    typerID String
+    
+    @@index([typerID])
 }

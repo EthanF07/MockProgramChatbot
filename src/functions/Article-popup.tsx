@@ -4,10 +4,10 @@ import ReactDOM from "react-dom";
 // Get a hook function
 
 
-let status: boolean = false;
-export default function Article_Popup (props: any) {
+let status = false;
+export default function Article_Popup (props: {Boolean: boolean}) {
   let style;
-  status = props.popup;
+  status = props.Boolean;
   
     return (
       <div>
